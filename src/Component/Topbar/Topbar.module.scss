@@ -1,0 +1,36 @@
+.navbar {
+  background-color: rgb(70, 0, 70);
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 5px;
+}
+
+.navbarLogo {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 100%;
+  color: white;
+}
+
+.navbarLinks {
+  width: 700px;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: auto;
+
+  .navbarLink {
+    font-size: 12px;
+    color: white;
+
+    :hover {
+      display: inline;
+      transition: all 100ms linear;
+      background-color: white;
+      padding: 3px 5px;
+      border-radius: 12px;
+      color: rgb(70, 0, 70);
+    }
+  }
+}

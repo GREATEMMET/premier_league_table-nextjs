@@ -1,0 +1,27 @@
+.row {
+    width: 100%;
+    border-bottom: 2px solid #ecedef;
+  
+    td{
+      padding-block: 10px;
+      font-size: 14px;
+    }
+  
+  }
+  
+// tables rows
+
+.club {
+    display: flex;
+    gap: 10px;
+  
+    .clubLogo {
+      width: 20px;
+    }
+  }
+
+.last5{
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+}
